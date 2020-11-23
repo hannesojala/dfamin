@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" /><title>dfamin</title>
+</head>
+<body>
+
+<h1>Minimize DFA</h1>
+
+Length of Alphabet
+<input id="alen" type="number" value = "2"> <br>
+Transition function
+<input id="tfun" type="text" value = "3-2,3-5,2-6,2-1,5-4,5-3,5-0"> <br>
+Start State
+<input id="q0"   type="number" value = "0"> <br>
+Accept States
+<input id="qa"   type="text" value = "0,1"> <br>
+
+<button onclick="getDFA(); dfamin();">Minimize Input</button> <br>
+<button onclick="defaults(); ">Load Example</button> <br>
+
+<script src="dfamin.js"></script>
+
+</body>
+</html> 
